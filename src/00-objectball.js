@@ -120,11 +120,12 @@ function numPointsScored (name) {
     const teams = gameObject()
     for (let n in teams) {
         console.log( teams[n].players[name].points )
-        //let value = gameObject.home.players.points;
-        //console.log(value) 
-        //return value
-
     }
 }
 
-numPointsScored("Alan Anderson")
+function shoeSize (name) {
+    const teams = gameObject()
+    for (let n in teams) {
+        console.log( teams[n].players[name].shoe )
+    }
+}
